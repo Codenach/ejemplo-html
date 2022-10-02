@@ -17,7 +17,7 @@
         escrito
             tal
                 cual
-        lo quieres
+        lo quieres. no saldran los tabuladores ni los saltos de linea.
 
         <b>remarcado</b>        <!--Tipos de modificadores de texto-->
         <i>cursiva</i>
@@ -29,9 +29,34 @@
     <a href="https://www.google.es"target="_blank">El enlace se abre en otra pestaña</a>    <!--target="_blank"-->
     <img src="https://losapuntesdemajo.vercel.app/images/lam_logo.png"
     alt="saldra cuando pases el cursor o la imagen no este"
-    width="104">        <!--insertar una imagen, width es la anchura en pixeles. no se cierra con /-->
+    width="104">        <!--insertar una imagen. src unico parametro obligatorio, width es la anchura en pixeles. no se cierra con /-->
     
-
+    <table>
+        <thead>
+            <tr>                        <!--eso es una fila del encabezado-->>
+                <th>Titulo 1</th>       <!--esto es una columna/celda del encabezado-->
+                <th>Titulo 2</th>
+                <th>Titulo 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                        <!--Esto es una fila tr-->
+                <td>F1C1</td>           <!--Esto es una celda de la fila-->
+                <td>F1C2</td>
+                <td>F1C3</td>
+            </tr>                       <!--Fin de la fina 1-->
+            <tr>                        <!--inicio de la fila 2-->
+                <td>F2C1</td>
+                <td>F2C2</td>
+                <td>F2C3</td>
+            </tr>
+            <tr>
+                <td>F3C1</td>
+                <td>F3C2</td>
+                <td>F3C3</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 </html>
